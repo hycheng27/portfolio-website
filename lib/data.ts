@@ -35,51 +35,57 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "My Graduation!",
+    location: "HKUST",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I majored in Computer Science and graduated at HKUST in 2020. It was a fun ride.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "Full-stack Developer",
+    location: "HKSTP, Hong Kong",
+    description: "TODO, descriptions of the 1st job experience.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2020 - 2022",
+  },
+  {
+    title: "Senior software engineer",
+    location: "Cyberport, Hong Kong",
+    description: "TODO, descriptions of the 2nd job experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Software Associate",
+    location: "KGI Securities, Hong Kong",
+    description:
+      "TODO, descriptions of the 3rd job experience. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Project 1",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    tags: ["React", "Next.js", "TODO"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Project 2",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+    tags: ["C#", "SQL", "TODO"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Project 3",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "But also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
+    tags: ["C#", "SQL", "TODO"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +100,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "phpMyAdmin",
+  "SSMS",
+  "Sybase SQL Anywhere",
   "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
+  "Express",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
