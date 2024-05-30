@@ -6,13 +6,14 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { GRADUATION_YEAR } from "../lib/constants";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Welcome | Jason Cheng",
   description: `Jason is a full-stack developer with ${
-    new Date().getFullYear() - 2022
+    new Date().getFullYear() - GRADUATION_YEAR
   } years of experience.`,
 };
 

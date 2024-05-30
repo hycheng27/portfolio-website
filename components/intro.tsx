@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { GRADUATION_YEAR } from "../lib/constants";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -65,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Jason.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">
-          {new Date().getFullYear() - 2020} years
+          {new Date().getFullYear() - GRADUATION_YEAR} years
         </span>{" "}
         of experience. I enjoy building{" "}
         <span className="italic">sites & apps</span>. My focus is{" "}
